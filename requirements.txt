@@ -1,0 +1,48 @@
+# =====================================================================
+# HybridRAG — Customer Complaint Classifier
+# Python 3.11.9
+# =====================================================================
+
+# UI
+streamlit==1.39.0
+
+# LangChain ecosystem
+langchain==0.3.7
+langchain-core==0.3.18
+langchain-community==0.3.5
+langchain-google-genai==2.0.4
+langchain-text-splitters==0.3.2
+
+# Agent workflow
+langgraph==0.2.45
+
+# Vector store + hybrid retrieval
+faiss-cpu==1.9.0
+scikit-learn==1.5.2
+
+# LLM / Embeddings backend
+google-generativeai==0.8.3
+
+# PDF
+pypdf==5.1.0
+pdfplumber==0.11.4
+
+# Token counting
+tiktoken==0.8.0
+
+# RAG evaluation (the real ragas library)
+ragas==0.2.6
+datasets==3.1.0
+
+# Config / retry
+pydantic==2.9.2
+pydantic-settings==2.6.1
+tenacity==9.0.0
+python-dotenv==1.0.1
+
+# Auth
+bcrypt==4.2.0
+
+# Misc
+numpy==1.26.4
+pandas==2.2.3
